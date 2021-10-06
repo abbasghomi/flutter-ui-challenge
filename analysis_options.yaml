@@ -1,0 +1,16 @@
+include: package:pedantic/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - "**/*.g.dart"
+  strong-mode:
+    implicit-casts: false
+  errors:
+    missing_required_param: error
+    parameter_assignments: error
+    avoid_relative_lib_imports: error
+linter:
+  rules:
+    - parameter_assignments
+    - avoid_relative_lib_imports

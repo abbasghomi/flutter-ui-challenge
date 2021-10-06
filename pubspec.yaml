@@ -1,0 +1,33 @@
+name: flutter_ui_challenge
+description: A Flutter UI challenge for web app development.
+
+publish_to: 'none'
+author: abbas ghomi <seyed.abbas.ghomi@gmail.com>
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  google_fonts: ^2.1.0
+  flutter_screenutil: ^5.0.0+2
+  sliver_tools: ^0.2.5
+  url_launcher: ^6.0.12
+  flutter_staggered_animations: ^1.0.0
+  url_strategy: ^0.2.0
+
+dev_dependencies:
+  test: ^1.18.2
+  pedantic: ^1.11.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
